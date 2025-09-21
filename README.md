@@ -1,12 +1,25 @@
-# React + Vite
+# ABOUT Jammming APP: Jammming app is built on REACT VITE APP, which enables to you search Spotify tracks and choose the tracks, and create your own playlist and save on your Spotiy account.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Feature:
+- Can search songs from Spotify
+- Can choose your favourite tracks
+- Can create your own playlist
+- Can add your favorite songs
+- Can save playlist in your Spotify account
 
-Currently, two official plugins are available:
+# Tech Stack:
+- React Vite (Hook)
+- Java Script
+- Spotify Web API
+- CSS
+ 
+# Prerequisites:
+- Node.js (v18+ recommended)
+- A Spotify account
+- A Spotify Developer app with Redirect URI set to `http://localhost:5173`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install
+```bash
+git clone https://github.com/your-username/jammming.git
+cd jammming
+npm install
