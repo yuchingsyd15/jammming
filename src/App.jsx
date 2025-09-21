@@ -61,14 +61,20 @@ function App() {
 
   return (
     <>
-      <div className='main'>
-        <h1>Jammming Search Bar</h1>
-          <SearchBar onSearch={handleSearch}/>
+    <header class="navbar">
+      <p>Jammming</p>
+    </header>
+    <div className='search-card'>
+      <SearchBar onSearch={handleSearch}/>
+    </div>
+    <div className='main'>
+      <div className='result-card'>
+          
           <SearchResults
            tracks={searchResults}
            onAdd={addTrack}/>
       </div>
-      <div>
+      <div className='playlist-card'>
           <Playlist 
           name={playlistName} 
           tracks={playlistTracks}
@@ -78,7 +84,7 @@ function App() {
           />
 
       </div>
-
+    </div>
     </>
   )
 };

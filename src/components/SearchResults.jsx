@@ -1,13 +1,18 @@
 import React from 'react';
 import TrackList from './TrackList';
+import './SearchResults.css';
 
 export default function SearchResults({tracks, onAdd}) {
 
   return (
     <>
-      <div>
-        <h2 className="results">Search Results</h2>
+      <div className="result-card">
+        <div className="resultCard-header">
+          <h2 className="searchResults">Search Results</h2>
+        </div>
+         <div className="list">
           <TrackList tracks={tracks} onAdd={onAdd}/>
+         </div>
       </div>
       
     </>

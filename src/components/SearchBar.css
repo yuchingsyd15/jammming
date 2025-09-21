@@ -1,0 +1,30 @@
+
+:root { --header-h: 56px; }   
+body { margin: 0; }
+#root { padding-top: var(--header-h); } 
+
+.search{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 12px;
+    padding:8px 12px;
+    width:auto;
+}
+
+.search input {
+    flex:1;
+    min-width: 200px;     
+    height: 28px;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+
+.search button {
+    margin-left: 8px;
+    height: 30px;
+    padding: 2px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+

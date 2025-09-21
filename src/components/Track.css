@@ -1,0 +1,16 @@
+.trackname {
+    padding-left:10px;
+
+}
+
+.trackbox {
+    display:flex;
+    padding-left:10px;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255,.1); 
+}
+
+.trackbox button {
+    margin-right:20px;
+}
