@@ -1,6 +1,6 @@
 // src/Spotify.js
 const clientId = '05400deab97c4bfda82a964bbd45682a';
-const redirectUri = 'http://127.0.0.1:5173/';
+const redirectUri = import.meta.env.VITE_SPOTIFY_REDIRECT_URI || window.location.origin + "/";
 const scope = 'playlist-modify-public playlist-modify-private';
 
 const AUTH_URL = new URL('https://accounts.spotify.com/authorize');
